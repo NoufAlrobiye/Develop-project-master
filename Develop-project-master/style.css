@@ -12,7 +12,7 @@ header {
     
     width: 100%;
     background-color: white;
-    position: fixed;
+    
     z-index: 999;
     display: flex;
     justify-content: space-between;
@@ -33,3 +33,136 @@ header {
     font-weight: 700;
     padding-left: 30px;
 }
+
+section {
+    padding:100px 200px;
+    width: 80%;
+    margin: auto;
+}
+
+.main {
+    width: 100%;
+    min-height: 80vh;
+    display: flex;
+    margin: auto;
+    align-items: center;
+    background-color: #9375ff;
+    background-size:cover ;
+    background-position: center;
+    background-attachment: fixed;
+    color: white;
+    justify-content: center;
+    position: relative;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+col {
+    margin: 20px 0;
+    flex-basis: 50%;
+    min-width: 300px;
+    height: 100%;
+    position: relative;
+}
+
+
+
+.main h2{
+    color: #fff;
+    font-size: 1.4em;
+    font-weight: 500;
+    display: inline-block;
+}
+
+.main h2 span{
+    display:inline-block;
+    margin-top: 10px;
+    color: white;
+    font-size: 3em;
+    font-weight:600;
+}
+
+.main p{
+    
+    font-size: 2em;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    
+}
+
+.main-btn{
+    color: #00a69c;
+    background-color:#ffe101 ;
+    text-decoration: none;
+    display: inline-block;
+    padding: 3px 80px;
+    letter-spacing: 1px;
+    border-radius: 20px;
+    margin-bottom: 10px;
+    transition: 0.7 ease;
+    font-size: 3em;
+    font-weight:600;
+
+}
+
+.title {
+    display: flex;
+    justify-content: center;
+    color:#00a69c;
+    font-size: 2.9em;
+    font-weight: 900;
+    margin-bottom: 30px;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+}
+
+.content img {
+    background-color: #fee552;
+    
+}
+
+.card {
+    background: #fff;
+    width: 21.25em;
+    box-shadow: 0 5px 25px rgba(1 1 1 / 15%);
+    border-radius: 10px;
+    padding: 25px;
+    margin: 15px;
+    transition: 0.7 ease;
+}
+
+
+
+.icon {
+    color: #000000;
+    font-size: 8em;
+    text-align: center;
+}
+
+.info {
+ text-align: center;
+}
+
+.info h3 {
+    color: black;
+    font-size: 1.9em;
+    font-weight: 800;
+    margin: 10px;
+}
+
+
+
+
+
+
+
+
